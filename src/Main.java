@@ -14,6 +14,9 @@ public class Main {
 
         Dog retriever = new Dog("Lab Retriever", 65,"Floppy", "Swimmer");
         doAnimalStuff(retriever,"slow");
+
+        Fish gold = new Fish("Goldish", 0.25,2,3);
+        doAnimalStuff(gold, "fast");
     }
 
     public static void doAnimalStuff(Animal animal, String speed) {
